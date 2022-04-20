@@ -1,0 +1,321 @@
+@import url(normalize.css);
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Lato';
+
+}
+
+.container{
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1270px;
+}
+.container-header {
+    width: 1440px;
+    margin: auto;
+
+}
+
+.header {
+    height: 962px;
+    padding-top: 56px;
+    background: linear-gradient(180deg, rgba(53, 66, 103, 0.0001) 0%, #151824 95.04%);
+}
+
+header {
+    height: 100%;
+    background: url('../img/background.png') no-repeat;
+    background-size: cover;
+}
+
+.header-top {
+    display: flex;
+
+}
+
+.logo-image {
+    margin-right: 660px;
+}
+
+.header-top-links {
+
+}
+
+.header-top-link {
+    padding-right: 80px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+
+}
+
+.header-text-title {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 60px;
+    color: #FFFFFF;
+    width: 619px;
+    height: 121px;
+    margin-top: 177px;
+}
+
+.header-text-description {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+
+    color: #FFFFFF;
+    width: 546px;
+    height: 72px;
+    margin-top: 22px;
+}
+
+.search {
+    display: flex;
+}
+
+.search-left {
+    height: 49px;
+    width: 297px;
+    margin-right: 61px;
+    border-bottom: 2px solid #BFC0C5;
+}
+
+.search-right {
+    height: 49px;
+    width: 297px;
+    border-bottom: 2px solid #BFC0C5;
+}
+
+input {
+    background: none;
+    text-decoration: none;
+    border: none;
+    width: 216px;
+    height: 24px;
+    margin-left: 23px;
+    margin-bottom: 23px;
+    outline: none;
+    color: white;
+}
+
+input::placeholder {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height, or 133% */
+
+
+    color: #FFFFFF;
+}
+
+.button-header {
+    margin-left: 60px;
+    background: #1B7DFF;
+    width: 171px;
+    height: 58px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+    border: none;
+    margin-top: -10px;
+    cursor: pointer;
+}
+
+.benefits-section {
+    background: #FFFFFF;
+    box-shadow: 0 2px 20px rgba(21, 24, 36, 0.15993);
+    width: 1262px;
+    max-width: 100%;
+    height: 655px;
+    margin: auto;
+    transform: translateY(-20vh);
+    padding-top: 80px;
+}
+
+.benefits-header {
+    margin-left: 99px;
+}
+
+.benefits-cards {
+    display: flex;
+    margin-top: 120px;
+    margin-left: 100px;
+    margin-bottom: 111px;
+}
+
+.benefits-card {
+    width: 317px;
+    height: 288px;
+    margin-right: 56px;
+}
+
+.benefits-card-image {
+    margin-bottom: 37px;
+}
+
+.benefits-card-title {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    /* identical to box height, or 133% */
+
+
+    color: #000000;
+    margin-bottom: 26px;
+}
+
+.benefits-card-description {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* or 150% */
+
+
+    color: #000000;
+    margin-bottom: 39px;
+}
+
+.benefits-card-links {
+
+}
+
+.benefits-card-link {
+    text-decoration: none;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+
+    color: #006DFE;
+}
+.benefits-arrow{
+    margin-left: 26px;
+}
+.section-title{
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 42px;
+    position: relative;
+    padding-bottom: 10px;
+}
+.section-title::after{
+    display: block;
+    content:'';
+    width: 253px;
+    height: 3px;
+    background-color: #006DFE;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.inspired-header{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.inspired-link {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    text-align: right;
+
+    color: #006DFE;
+    text-decoration: none;
+}
+.inspired-card-top{
+    width: 619px;
+    height: 354px;
+    grid-column: span 3;
+
+}
+.inspired-arrow{
+    margin-left: 26px;
+}
+
+
+
+.inspired-cards{
+    display: grid;
+    grid-template-columns: repeat(7 ,1fr );
+
+    row-gap: 10px;
+}
+.inspired-card{
+    position: relative;
+    overflow: hidden;
+    margin-right: 10px;
+}
+.inspired-card::after{
+    position: absolute;
+    content:'';
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.3);
+    z-index:2
+}
+.inspired-card-top-title{
+    bottom: -27px;
+    left: 29px;
+    position: absolute;
+    z-index: 3;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 60px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+.inspired-card-bottom{
+    grid-column: span 2;
+
+}
+.inspired-card-top-image{
+    height: 354px;
+    object-fit: cover;
+}
+.inspired-card-bottom-image{
+    height: 283px;
+    object-fit: cover;
+}
+.inspired-card-image{
+    width:100%;
+}
